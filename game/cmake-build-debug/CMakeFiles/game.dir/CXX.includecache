@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniil/CLionProjects/game/Army.cpp
+iostream
+-
+Army.h
+/home/daniil/CLionProjects/game/Army.h
+
+/home/daniil/CLionProjects/game/Army.h
+iostream
+-
+vector
+-
+wariors.h
+/home/daniil/CLionProjects/game/wariors.h
+
+/home/daniil/CLionProjects/game/wariors.h
+iostream
+-
+
