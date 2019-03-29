@@ -10,10 +10,33 @@ CMakeFiles/game.dir/game.cpp.o: game.cpp
 CMakeFiles/game.dir/game.cpp.o: game.h
 CMakeFiles/game.dir/game.cpp.o: wariors.h
 
-CMakeFiles/game.dir/main.cpp.o: Army.h
-CMakeFiles/game.dir/main.cpp.o: game.h
 CMakeFiles/game.dir/main.cpp.o: main.cpp
-CMakeFiles/game.dir/main.cpp.o: wariors.h
+
+CMakeFiles/game.dir/test.cpp.o: Army.h
+CMakeFiles/game.dir/test.cpp.o: game.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest.h
+CMakeFiles/game.dir/test.cpp.o: test.cpp
+CMakeFiles/game.dir/test.cpp.o: wariors.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-death-test.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-matchers.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-message.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-param-test.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-printers.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-test-part.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest-typed-test.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest_pred_impl.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/gtest_prod.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-internal.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-port.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-string.h
+CMakeFiles/game.dir/test.cpp.o: googletest-master/googletest/include/gtest/internal/gtest-type-util.h
 
 CMakeFiles/game.dir/wariors.cpp.o: wariors.cpp
 CMakeFiles/game.dir/wariors.cpp.o: wariors.h

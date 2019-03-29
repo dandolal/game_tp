@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniil/CLionProjects/tp_project/game/Army.cpp
+iostream
+-
+Army.h
+/home/daniil/CLionProjects/tp_project/game/Army.h
+
+/home/daniil/CLionProjects/tp_project/game/Army.h
+iostream
+-
+vector
+-
+wariors.h
+/home/daniil/CLionProjects/tp_project/game/wariors.h
+
+/home/daniil/CLionProjects/tp_project/game/game.cpp
+game.h
+/home/daniil/CLionProjects/tp_project/game/game.h
+
+/home/daniil/CLionProjects/tp_project/game/game.h
+Army.h
+/home/daniil/CLionProjects/tp_project/game/Army.h
+iostream
+-
+
+/home/daniil/CLionProjects/tp_project/game/main.cpp
+iostream
+-
+
+/home/daniil/CLionProjects/tp_project/game/wariors.cpp
+wariors.h
+/home/daniil/CLionProjects/tp_project/game/wariors.h
+iostream
+-
+
+/home/daniil/CLionProjects/tp_project/game/wariors.h
+iostream
+-
+

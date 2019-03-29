@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniil/CLionProjects/game
+CMAKE_SOURCE_DIR = /home/daniil/CLionProjects/tp_project/game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniil/CLionProjects/game
+CMAKE_BINARY_DIR = /home/daniil/CLionProjects/tp_project/game
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/game.dir/flags.make
 
 CMakeFiles/game.dir/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/main.cpp.o -c /home/daniil/CLionProjects/game/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/tp_project/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/main.cpp.o -c /home/daniil/CLionProjects/tp_project/game/main.cpp
 
 CMakeFiles/game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/game/main.cpp > CMakeFiles/game.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/tp_project/game/main.cpp > CMakeFiles/game.dir/main.cpp.i
 
 CMakeFiles/game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/game/main.cpp -o CMakeFiles/game.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/tp_project/game/main.cpp -o CMakeFiles/game.dir/main.cpp.s
 
 CMakeFiles/game.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/game.dir/main.cpp.o.provides.build: CMakeFiles/game.dir/main.cpp.o
 
 CMakeFiles/game.dir/wariors.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/wariors.cpp.o: wariors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/wariors.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/wariors.cpp.o -c /home/daniil/CLionProjects/game/wariors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/tp_project/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/wariors.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/wariors.cpp.o -c /home/daniil/CLionProjects/tp_project/game/wariors.cpp
 
 CMakeFiles/game.dir/wariors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/wariors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/game/wariors.cpp > CMakeFiles/game.dir/wariors.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/tp_project/game/wariors.cpp > CMakeFiles/game.dir/wariors.cpp.i
 
 CMakeFiles/game.dir/wariors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/wariors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/game/wariors.cpp -o CMakeFiles/game.dir/wariors.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/tp_project/game/wariors.cpp -o CMakeFiles/game.dir/wariors.cpp.s
 
 CMakeFiles/game.dir/wariors.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/game.dir/wariors.cpp.o.provides.build: CMakeFiles/game.dir/wariors.cp
 
 CMakeFiles/game.dir/Army.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Army.cpp.o: Army.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/Army.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Army.cpp.o -c /home/daniil/CLionProjects/game/Army.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/tp_project/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/Army.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Army.cpp.o -c /home/daniil/CLionProjects/tp_project/game/Army.cpp
 
 CMakeFiles/game.dir/Army.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Army.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/game/Army.cpp > CMakeFiles/game.dir/Army.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/tp_project/game/Army.cpp > CMakeFiles/game.dir/Army.cpp.i
 
 CMakeFiles/game.dir/Army.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Army.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/game/Army.cpp -o CMakeFiles/game.dir/Army.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/tp_project/game/Army.cpp -o CMakeFiles/game.dir/Army.cpp.s
 
 CMakeFiles/game.dir/Army.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/game.dir/Army.cpp.o.provides.build: CMakeFiles/game.dir/Army.cpp.o
 
 CMakeFiles/game.dir/game.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/game.cpp.o: game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/game.cpp.o -c /home/daniil/CLionProjects/game/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/tp_project/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/game.cpp.o -c /home/daniil/CLionProjects/tp_project/game/game.cpp
 
 CMakeFiles/game.dir/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/game/game.cpp > CMakeFiles/game.dir/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/tp_project/game/game.cpp > CMakeFiles/game.dir/game.cpp.i
 
 CMakeFiles/game.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/game/game.cpp -o CMakeFiles/game.dir/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/tp_project/game/game.cpp -o CMakeFiles/game.dir/game.cpp.s
 
 CMakeFiles/game.dir/game.cpp.o.requires:
 
@@ -153,12 +153,37 @@ CMakeFiles/game.dir/game.cpp.o.provides: CMakeFiles/game.dir/game.cpp.o.requires
 CMakeFiles/game.dir/game.cpp.o.provides.build: CMakeFiles/game.dir/game.cpp.o
 
 
+CMakeFiles/game.dir/test.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/test.cpp.o: test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/CLionProjects/tp_project/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/test.cpp.o -c /home/daniil/CLionProjects/tp_project/game/test.cpp
+
+CMakeFiles/game.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/CLionProjects/tp_project/game/test.cpp > CMakeFiles/game.dir/test.cpp.i
+
+CMakeFiles/game.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/CLionProjects/tp_project/game/test.cpp -o CMakeFiles/game.dir/test.cpp.s
+
+CMakeFiles/game.dir/test.cpp.o.requires:
+
+.PHONY : CMakeFiles/game.dir/test.cpp.o.requires
+
+CMakeFiles/game.dir/test.cpp.o.provides: CMakeFiles/game.dir/test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/test.cpp.o.provides.build
+.PHONY : CMakeFiles/game.dir/test.cpp.o.provides
+
+CMakeFiles/game.dir/test.cpp.o.provides.build: CMakeFiles/game.dir/test.cpp.o
+
+
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/main.cpp.o" \
 "CMakeFiles/game.dir/wariors.cpp.o" \
 "CMakeFiles/game.dir/Army.cpp.o" \
-"CMakeFiles/game.dir/game.cpp.o"
+"CMakeFiles/game.dir/game.cpp.o" \
+"CMakeFiles/game.dir/test.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
@@ -167,9 +192,13 @@ game: CMakeFiles/game.dir/main.cpp.o
 game: CMakeFiles/game.dir/wariors.cpp.o
 game: CMakeFiles/game.dir/Army.cpp.o
 game: CMakeFiles/game.dir/game.cpp.o
+game: CMakeFiles/game.dir/test.cpp.o
 game: CMakeFiles/game.dir/build.make
+game: lib/libgtestd.a
+game: lib/libgtest_maind.a
+game: lib/libgtestd.a
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniil/CLionProjects/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniil/CLionProjects/tp_project/game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +210,7 @@ CMakeFiles/game.dir/requires: CMakeFiles/game.dir/main.cpp.o.requires
 CMakeFiles/game.dir/requires: CMakeFiles/game.dir/wariors.cpp.o.requires
 CMakeFiles/game.dir/requires: CMakeFiles/game.dir/Army.cpp.o.requires
 CMakeFiles/game.dir/requires: CMakeFiles/game.dir/game.cpp.o.requires
+CMakeFiles/game.dir/requires: CMakeFiles/game.dir/test.cpp.o.requires
 
 .PHONY : CMakeFiles/game.dir/requires
 
@@ -189,6 +219,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd /home/daniil/CLionProjects/game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniil/CLionProjects/game /home/daniil/CLionProjects/game /home/daniil/CLionProjects/game /home/daniil/CLionProjects/game /home/daniil/CLionProjects/game/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniil/CLionProjects/tp_project/game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniil/CLionProjects/tp_project/game /home/daniil/CLionProjects/tp_project/game /home/daniil/CLionProjects/tp_project/game /home/daniil/CLionProjects/tp_project/game /home/daniil/CLionProjects/tp_project/game/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game.dir/depend
 

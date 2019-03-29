@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/wariors.cpp.o"
   "CMakeFiles/game.dir/Army.cpp.o"
   "CMakeFiles/game.dir/game.cpp.o"
+  "CMakeFiles/game.dir/test.cpp.o"
   "game.pdb"
   "game"
 )

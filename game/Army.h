@@ -15,7 +15,7 @@ public:
     Army() {
         cost.resize(3);
         cost[0] = 1;
-        cost[1] = 1000;
+        cost[1] = 100;
         cost[2] = 50;
     }
 
@@ -74,7 +74,7 @@ protected:
 
 class WhiteArmyFactory : public ArmyFactory {
 public:
-    WhiteArmyFactory() : ArmyFactory(1000, 'w') {}
+    WhiteArmyFactory() : ArmyFactory(200000, 'w') {}
 
     void createInfantryunit(Infantryunit *&unit);
 
@@ -85,7 +85,7 @@ public:
 
 class BlackArmyFactory : public ArmyFactory {
 public:
-    BlackArmyFactory() : ArmyFactory(500, 'b') {}
+    BlackArmyFactory() : ArmyFactory(100000, 'b') {}
 
     void createInfantryunit(Infantryunit *&unit);
 
